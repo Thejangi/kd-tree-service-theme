@@ -23,25 +23,25 @@ This theme is located in:
 `wp-content/themes/kd-tree-service/`
 
 Key folders:
-- `templates/` — site templates (**.html**)
-- `parts/` — header/footer (**.html**)
-- `patterns/` — registered block patterns (**.php**)
-- `assets/` — CSS/JS/SVG/fonts (keep minimal)
-- `languages/` — translations
+- `templates/` – site templates (**.html**)
+- `parts/` – header/footer (**.html**)
+- `patterns/` – registered block patterns (**.php**)
+- `assets/` – CSS/JS/SVG/fonts (keep minimal)
+- `languages/` – translations
 
 ## Templates
-- `templates/index.html` — fallback template
-- `templates/front-page.html` — home layout (optional)
-- `templates/page.html` — default pages
-- `templates/single.html` — default single
-- `templates/archive.html` — default archive
-- `templates/404.html` — not found
-- `templates/single-service-location.html` — location single
-- `templates/archive-service-location.html` — locations archive/hub
+- `templates/index.html` – fallback template
+- `templates/front-page.html` – home layout (optional)
+- `templates/page.html` – default pages
+- `templates/single.html` – default single
+- `templates/archive.html` – default archive
+- `templates/404.html` – not found
+- `templates/single-service-location.html` – location single
+- `templates/archive-service-location.html` – locations archive/hub
 
 ## Design Notes
 Header must include:
-- One phone CTA area (phone number + Call Now button) — no duplicates
+- One phone CTA area (phone number + Call Now button) – no duplicates
 - USA/CA switcher (SVG icons + chevron)
 - ZIP code detector UI
 - Locations mega menu (State → Cities)
