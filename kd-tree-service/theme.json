@@ -1,0 +1,88 @@
+{
+    "version": 2,
+    "settings": {
+        "color": {
+            "palette": [
+                {
+                    "name": "Primary",
+                    "slug": "primary",
+                    "color": "#02771e"
+                },
+                {
+                    "name": "Accent",
+                    "slug": "accent",
+                    "color": "#8ec740"
+                },
+                {
+                    "name": "Base",
+                    "slug": "base",
+                    "color": "#ffffff"
+                },
+                {
+                    "name": "Text",
+                    "slug": "text",
+                    "color": "#121315"
+                },
+                {
+                    "name": "Surface",
+                    "slug": "surface",
+                    "color": "#f6f7f7"
+                }
+            ]
+        },
+        "typography": {
+            "fontFamilies": [
+                {
+                    "name": "System",
+                    "slug": "system",
+                    "fontFamily": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Inter,Arial,sans-serif"
+                }
+            ]
+        },
+        "spacing": {
+            "spacingSizes": [
+                {
+                    "slug": "xs",
+                    "size": "0.5rem",
+                    "name": "XS"
+                },
+                {
+                    "slug": "sm",
+                    "size": "0.75rem",
+                    "name": "SM"
+                },
+                {
+                    "slug": "md",
+                    "size": "1rem",
+                    "name": "MD"
+                },
+                {
+                    "slug": "lg",
+                    "size": "1.5rem",
+                    "name": "LG"
+                },
+                {
+                    "slug": "xl",
+                    "size": "2rem",
+                    "name": "XL"
+                }
+            ]
+        }
+    },
+    "styles": {
+        "color": {
+            "background": "var(--wp--preset--color--base)",
+            "text": "var(--wp--preset--color--text)"
+        },
+        "typography": {
+            "fontFamily": "var(--wp--preset--font-family--system)"
+        },
+        "elements": {
+            "link": {
+                "color": {
+                    "text": "var(--wp--preset--color--primary)"
+                }
+            }
+        }
+    }
+}
